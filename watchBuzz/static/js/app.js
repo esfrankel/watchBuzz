@@ -164,6 +164,6 @@ function createDownloadLink(blob) {
 	      contentType: false,
 	      enctype: 'multipart/form-data'
 	    }).done(function(data) {
-	      console.log(data);
+	      document.getElementById("return").innerHTML = data;
 	});
 }

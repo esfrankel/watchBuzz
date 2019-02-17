@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Ambient Alerts</title>
+    <title>ListenHere</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
@@ -87,7 +87,7 @@
     </style>
   </head>
   <body>
-    <center><h1>Ambient Alerts</h1></center>
+    <center><h1>ListenHere</h1></center>
 
     <div id="controls">
   	 <button id="recordButton">Record</button>
@@ -97,6 +97,8 @@
     <div id="formats">Format: start recording to see sample rate</div>
   	<h3>Recordings</h3>
   	<ol id="recordingsList"></ol>
+
+    <center><h2 style="margin-top:100px;" id="return"> </h2></center>
 
     <!-- inserting these scripts at the end to be able to use all the elements in the DOM -->
   	<script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
