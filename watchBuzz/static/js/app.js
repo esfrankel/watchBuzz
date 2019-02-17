@@ -81,7 +81,7 @@ function startRecording() {
 	});
 	setTimeout(function(){
 		stopRecording()
-	},6000);
+	},4000);
 }
 
 function pauseRecording(){
