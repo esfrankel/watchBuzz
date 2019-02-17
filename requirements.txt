@@ -3,7 +3,7 @@ pandas
 numpy>=1.15.0
 scipy
 librosa
-sklearn
+scikit-learn
 flask
 werkzeug
 base64
