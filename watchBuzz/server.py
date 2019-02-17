@@ -66,7 +66,7 @@ def audio():
         ret = pca_scaler(train)
         return ret
 
-    audioMap = ['Air Conditioner','Car Horn','Children Playing','Dog Barking','Drilling','Engine Idling','Gun Shot','Jack Hammer','Siren', 'Street Music', '']
+    audioMap = ['Air Conditioner','Car Horn','Children Playing','Dog Barking','Drilling','Engine Idling','Gun Shot','Jack Hammer','Siren', 'Street Music', 'Not Enough Information']
 
     def convert_to_labels(preds, i2c, k=1):
         ans = 0
