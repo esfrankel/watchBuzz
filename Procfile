@@ -1,1 +1,1 @@
-scale: flask run
+web: flask run
