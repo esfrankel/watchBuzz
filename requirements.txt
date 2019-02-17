@@ -1,6 +1,6 @@
-googleapiclient
+google-api-python-client
 pandas
-numpy
+numpy>=1.15.0
 scipy
 librosa
 sklearn
