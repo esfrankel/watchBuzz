@@ -6,5 +6,3 @@ librosa
 scikit-learn
 flask
 werkzeug
-base64
-re
