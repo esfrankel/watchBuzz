@@ -73,7 +73,7 @@ def audio():
         id = 10
         count = 0
         for p in preds:
-            if p >= 0.55:
+            if p >= 0.3 and p > ans:
                 ans = p
                 id = count
             count += 1
